@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style
+.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <script defer src="script.js"></script>
+    <title>SEASON KIDS</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">SEASON KIDS</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">SHOP</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">LOOK BOOK</a></li>
+            </ul>
+        </nav>
+        <div class="icons">
+            <a href="#"><i class="fa-regular fa-heart"></i></a>
+            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            <a href="#"><i class="fa-solid fa-user-large"></i></a>
+        </div>
+    </header>
+
+    <section class="product-detail">
+        <div class="product-images">
+            <img src="가디건1.jpg" alt="가디건 1">
+        </div>
+
+        <div class="product-info">
+            <h1>Flutter Eyelet Knit Cardigan</h1>
+            <p class="price">42,000원</p>
+
+            <label for="size">Size:</label>
+            <select id="size">
+                <option value="">사이즈 선택</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+            </select>
+
+            <p id="size-caption" class="size-caption"></p>
+
+            <label for="order-quantity">주문 수량:</label>
+            <input type="number" id="order-quantity" value="1" min="1">
+
+            <p>배송비: <span id="shipping-fee">₩3,500원 (100,000원 이상 구매 시 무료) <br>
+                    제주 2,000원, 제주 외 도서 산간 3,000원 추가</span></p>
+            <p>총 상품 금액: <span id="total-price">₩42,000</span></p>
+
+            <div class="buttons">
+                <button class="buy-now">구매하기</button>
+                <button class="add-to-cart">장바구니 담기</button>
+            </div>
+
+            <div class="product-description">
+                <p>
+                    빈티지에서 영감을 받은 디자인의 크루넥 카디건입니다.<br>
+                    잔잔한 아일렛 조직의 부드러운 코튼사로 니팅되었어요.<br>
+                    깔끔한 일자핏으로 사랑스러움을 더해줍니다.<br>
+                    네크라인에 섬세한 레이스 작업과 진주 버튼으로 포인트를 더했어요.<br>
+                    소매단과 밑단에 리브드로 편안한 착용감을 선사해요.<br>
+                    다양한 사랑스러운 룩에 걸쳐서 룩을 완성해주세요.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-details">
+        <h2>제품 상세 이미지</h2>
+        <div class="detail-images">
+            <img src="가디건1.jpg" alt="디테일 이미지 1">
+            <img src="가디건5.jpg" alt="디테일 이미지 2">
+            <img src="가디건6.jpg" alt="디테일 이미지 3">
+            <img src="가디건7.jpg" alt="디테일 이미지 3">
+            <img src="가디건2.jpg" alt="디테일 이미지 3">
+            <img src="가디건3.jpg" alt="디테일 이미지 3">
+            <img src="가디건4.jpg" alt="디테일 이미지 3">
+        </div>
+    </section>
+
+    <section class="size-guide">
+        <h2>사이즈 가이드</h2>
+        <p class="caption">
+            SEASON KIDS의 모든 의류 상품은 “표준 사이즈” 차트를 기준으로 제작됩니다.<br>
+            아동의 연령, 키, 몸무게를 아래 사이즈 차트와 비교 후 상품별 상세 치수 정보를 확인해 주세요.
+        </p>
+
+        <div class="size-tables">
+            <h3> Baby 사이즈 (12M~24M)</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Size</th>
+                        <th>Chest (cm)</th>
+                        <th>Arm (cm)</th>
+                        <th>Length (cm)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>12M</td>
+                        <td>25</td>
+                        <td>24.5</td>
+                        <td>28</td>
+                    </tr>
+                    <tr>
+                        <td>18M</td>
+                        <td>26</td>
+                        <td>26.5</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>24M</td>
+                        <td>27.5</td>
+                        <td>29</td>
+                        <td>32</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3> Baby 신체 기준</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Size</th>
+                        <th>Height</th>
+                        <th>Weight</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6M (Newborn)</td>
+                        <td>up to 66cm</td>
+                        <td>up to 8kg</td>
+                    </tr>
+                    <tr>
+                        <td>12M</td>
+                        <td>up to 74cm</td>
+                        <td>up to 10kg</td>
+                    </tr>
+                    <tr>
+                        <td>18M</td>
+                        <td>up to 81cm</td>
+                        <td>up to 11kg</td>
+                    </tr>
+                    <tr>
+                        <td>24M</td>
+                        <td>up to 86cm</td>
+                        <td>up to 12kg</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h3> Toddler & Junior 신체 기준</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Size</th>
+                        <th>Height</th>
+                        <th>Weight</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>6T</td>
+                        <td>up to 120cm</td>
+                        <td>up to 20kg</td>
+                    </tr>
+                    <tr>
+                        <td>8T</td>
+                        <td>up to 125cm</td>
+                        <td>up to 25kg</td>
+                    </tr>
+                    <tr>
+                        <td>10T</td>
+                        <td>up to 135cm</td>
+                        <td>up to 30kg</td>
+                    </tr>
+                    <tr>
+                        <td>12T</td>
+                        <td>up to 145cm</td>
+                        <td>up to 35kg</td>
+                    </tr>
+                    <tr>
+                        <td>14T</td>
+                        <td>up to 155cm</td>
+                        <td>up to 40kg</td>
+                    </tr>
+                    <tr>
+                        <td>16T</td>
+                        <td>up to 165cm</td>
+                        <td>up to 45kg</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="info-container">
+        <div class="product-info-box">
+            <h2>제품 정보</h2>
+            <ul>
+                <li><strong>MATERIALS</strong>: Cotton 100%</li>
+                <li><strong>HOW TO WASH</strong>: Dry clean</li>
+                <li><strong>SEASON</strong>: Summer</li>
+                <li><strong>MODEL SIZE</strong>: Baby - 72cm, 18M</li>
+            </ul>
+            <h2>품질 인증 및 안전 정보</h2>
+            <p>
+                <img src="kc.svg" alt="KC 인증 마크" class="small-icon">
+                (주)SEASON KIDS의 제품은 엄격한 품질 및 공정 관리를 통해 생산되며,<br>
+                규격, 외관, 성분 검사에서 <strong>안전 인증</strong>을 받은 제품입니다.
+            </p>
+        </div>
+
+        <div class="purchase-info">
+            <h2>배송 및 구매 안내</h2>
+            <div class="info-text">
+                <p>⏰ <strong>오전 9시까지 주문건</strong>에 한해 당일 출고 준비가 됩니다.</p>
+                <p>🚚 별도 품절 없을 시 <strong>CJ대한통운</strong>으로 당일 출고됩니다.</p>
+                <p><strong>회원 전용 무료배송</strong> (단, 제주/도서산간 추가요금)</p>
+                <p>💳 무통장 입금은 <strong>24시간 이내</strong> 미입금 시 자동취소됩니다.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="related-products">
+        <h2>추천 상품</h2>
+        <div class="product-list">
+            <div class="product">
+                <a href="#">
+                    <img src="추천상품.jpg" alt="추천 상품 1">
+                    <p>25SS Baby Look No.3</p>
+                    <span class="price">₩50,000</span>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="추천상품2.jpg" alt="추천 상품 2">
+                    <p>25SS Girl Look No.9</p>
+                    <span class="price">₩55,000</span>
+                </a>
+            </div>
+            <div class="product">
+                <a href="#">
+                    <img src="추천상품3.jpg" alt="추천 상품 3">
+                    <p>25SS Girl Look No.9</p>
+                    <span class="price">₩60,000</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>© 2025 SEASON KIDS.</p>
+        <p><a href="terms.html">이용약관</a> | <a href="privacy.html">개인정보처리방침</a> | <a href="business.html">사업자정보확인</a></p>
+        <p>상호: 태연 컴퍼니 | 대표: 김태연 | 개인정보관리책임자: 김태연 | 이메일: <a href="mailto:3832650@naver.com">3832650@naver.com</a></p>
+        <p>주소: 광주광역시광산구장덕로6번길35 | 사업자등록번호: 012-34-56789 | 통신판매: 1996-광주-1015 | 호스팅제공자: (주)태연샵</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const cart = [];
+            const cartButton = document.querySelector(".add-to-cart");
+            const buyNowButton = document.querySelector(".buy-now");
+            const orderQuantityInput = document.getElementById("order-quantity");
+            const totalPriceElement = document.getElementById("total-price");
+            const sizeSelect = document.getElementById("size");
+            const sizeCaption = document.getElementById("size-caption");
+            const productName = document.querySelector(".product-info h1").textContent;
+
+            function updateTotal() {
+                const pricePerItem = 42000;
+                const orderQuantity = parseInt(orderQuantityInput.value) || 1;
+                const shippingFee = 3500;
+
+                let totalPrice = pricePerItem * orderQuantity;
+                if (totalPrice >= 100000) {
+                    totalPriceElement.textContent = `₩${totalPrice.toLocaleString()} (배송비 무료)`;
+                } else {
+                    totalPrice += shippingFee;
+                    totalPriceElement.textContent = `₩${totalPrice.toLocaleString()} (배송비 포함)`;
+                }
+            }
+
+            sizeSelect.addEventListener("change", () => {
+                if (sizeSelect.value) {
+                    sizeCaption.textContent = `${productName} - ${sizeSelect.value} 사이즈 선택됨`;
+                    sizeCaption.style.display = "block";
+                } else {
+                    sizeCaption.style.display = "none";
+                }
+            });
+
+            if (cartButton) {
+                cartButton.addEventListener("click", () => {
+                    const name = cartButton.getAttribute("data-name");
+                    const price = parseInt(cartButton.getAttribute("data-price"));
+                    const size = sizeSelect.value;
+                    const orderQuantity = parseInt(orderQuantityInput.value);
+
+                    if (!size) {
+                        alert("사이즈를 선택해주세요!");
+                        return;
+                    }
+
+                    const item = { name, price, size, orderQuantity };
+                    cart.push(item);
+
+                    console.log("장바구니에 추가된 상품:", item);
+                    console.log("현재 장바구니:", cart);
+
+                    alert("상품이 장바구니에 추가되었습니다!");
+                });
+            } else {
+                console.error("장바구니 버튼을 찾을 수 없습니다!");
+            }
+
+            if (buyNowButton) {
+                buyNowButton.addEventListener("click", () => {
+                    alert("구매 페이지로 이동합니다.");
+                });
+            } else {
+                console.error("구매하기 버튼을 찾을 수 없습니다!");
+            }
+
+            orderQuantityInput.addEventListener("change", updateTotal);
+
+            updateTotal();
+        });
+    </script>
+</body>
+
+</html>
