@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Ownglyph_ParkDaHyun';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Ownglyph_ParkDaHyun';
+}
+
+.back {
+    background: url(spring-sale-pc6.png);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 35%;
+    position: relative;
+    padding-bottom: 50px;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.icons a {
+    margin: 0 5px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.banner {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.banner h1 {
+    font-size: 40px;
+    transform: none;
+}
+
+.home-cover-button {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+
+.home-cover-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    border-radius: 25px;
+    transition: background 0.3s ease;
+}
+
+.home-cover-button a {
+    width: 120px;
+    text-align: center;
+}
+
+.home-cover-button a:hover {
+    background-color: #ff6600;
+}
+
+.products h1{
+margin: 100px 0;
+}
+
+.products a {
+    text-decoration: none;
+    color: black;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.product img {
+    width: 100%;
+    max-height: 700px;
+    transition: color 0.3s ease, transform 0.1s ease;
+}
+
+.product img:hover {
+    color: lightgray;
+    transform: scale(0.98);
+}
+
+.product p {
+    margin: 0px;
+}
+
+footer {
+    color: black;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 1060px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .home-cover-button {
+        max-width: 280px;
+    }
+
+    .home-cover-button a {
+        flex: 1 1 calc(50% - 10px);
+        font-size: 14px;
+        padding: 6px 10px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .logo {
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    nav ul {
+        width: 100%;
+        padding: 0;
+        margin: 15px;
+    }
+
+    nav ul li {
+        margin: 20px 0;
+    }
+
+    nav ul li a{
+        margin: 10px;
+    }
+
+    .icons {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .product p{
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
