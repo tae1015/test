@@ -1,4 +1,4 @@
-아동복 브랜드 SEASON KIDS의 공식 웹사이트입니다. <br>
+![스크린2](https://github.com/user-attachments/assets/8f3a1b35-02d6-43e8-a7b4-a6fd0af2db94)![스크린](https://github.com/user-attachments/assets/2f372925-9440-48c4-b444-538bebc64aab)아동복 브랜드 SEASON KIDS의 공식 웹사이트입니다. <br>
 2025 S/S 시즌을 맞이하여 심플하면서 감각적인 쇼핑 경험을 제공하는 것을 목표로 제작되었습니다. <br>
 
 🔗 배포 주소 <br>
@@ -17,7 +17,8 @@ HTML5, CSS3, JavaScript <br>
 이미지: 브랜드 제공 자료 <br>
 
 📸 스크린샷 <br>
-(웹사이트 전체 화면, 모바일 화면 등 스크린샷 첨부) <br>
+![스크린](https://github.com/user-attachments/assets/2068ee71-e75a-41ba-ae2b-ed224f7b1bfd)
+![스크린2](https://github.com/user-attachments/assets/016e5264-9244-41b5-93da-f5dfd05c2c77)
 
 🙋‍♀️ 제작자 정보 <br>
 제작: 김태연 <br>
